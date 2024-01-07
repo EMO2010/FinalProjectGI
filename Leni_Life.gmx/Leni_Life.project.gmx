@@ -5,9 +5,35 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\S_Leni_walk</sprite>
+    <sprite>sprites\S_Leni_idle</sprite>
+    <sprite>sprites\s_score_apple</sprite>
+    <sprite>sprites\sprite5s_score_banana</sprite>
+    <sprite>sprites\s_sprite_snack</sprite>
+    <sprite>sprites\s_score_water</sprite>
+    <sprite>sprites\s_score_orange</sprite>
+    <sprite>sprites\s_solid</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\tile_set_shop_</background>
+    <background>background\bg_shop</background>
+    <background>background\tile_set_shop_2</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\Scr_input.gml</script>
+    <script>scripts\Scr_Leni_idle.gml</script>
+    <script>scripts\Scr_walk_hor.gml</script>
+    <script>scripts\Scr_walk_ver.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\O_Leni</object>
+    <object>objects\o_solid</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\SHOP</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
