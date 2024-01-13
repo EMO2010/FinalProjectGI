@@ -9,16 +9,17 @@
     <sprite>sprites\S_Leni_walk</sprite>
     <sprite>sprites\S_Leni_idle</sprite>
     <sprite>sprites\s_score_apple</sprite>
-    <sprite>sprites\sprite5s_score_banana</sprite>
-    <sprite>sprites\s_sprite_snack</sprite>
-    <sprite>sprites\s_score_water</sprite>
-    <sprite>sprites\s_score_orange</sprite>
+    <sprite>sprites\s_score_snack</sprite>
+    <sprite>sprites\s_sprite_noodle</sprite>
+    <sprite>sprites\s_score_soda</sprite>
     <sprite>sprites\s_solid</sprite>
+    <sprite>sprites\s_Task</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\tile_set_shop_</background>
     <background>background\bg_shop</background>
+    <background>background\tile_set_shop_</background>
     <background>background\tile_set_shop_2</background>
+    <background>background\background3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -30,9 +31,14 @@
   <objects name="objects">
     <object>objects\O_Leni</object>
     <object>objects\o_solid</object>
+    <object>objects\O_score_1</object>
+    <object>objects\O_score_2</object>
+    <object>objects\O_score_3</object>
+    <object>objects\O_score_4</object>
+    <object>objects\o_task</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\SHOP</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
