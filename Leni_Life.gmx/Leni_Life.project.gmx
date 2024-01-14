@@ -4,7 +4,11 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\ost</sound>
+    <sound>sound\bell</sound>
+    <sound>sound\sound2</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\S_Leni_walk</sprite>
     <sprite>sprites\S_Leni_idle</sprite>
@@ -14,12 +18,18 @@
     <sprite>sprites\s_score_soda</sprite>
     <sprite>sprites\s_solid</sprite>
     <sprite>sprites\s_Task</sprite>
+    <sprite>sprites\sprite8</sprite>
+    <sprite>sprites\sprite9</sprite>
+    <sprite>sprites\sprite10</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_shop</background>
     <background>background\tile_set_shop_</background>
     <background>background\tile_set_shop_2</background>
     <background>background\background3</background>
+    <background>background\background4</background>
+    <background>background\background5</background>
+    <background>background\background6</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -28,6 +38,9 @@
     <script>scripts\Scr_walk_hor.gml</script>
     <script>scripts\Scr_walk_ver.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\O_Leni</object>
     <object>objects\o_solid</object>
@@ -35,10 +48,16 @@
     <object>objects\O_score_2</object>
     <object>objects\O_score_3</object>
     <object>objects\O_score_4</object>
-    <object>objects\o_task</object>
+    <object>objects\o_collect</object>
+    <object>objects\object7</object>
+    <object>objects\object8</object>
+    <object>objects\object9</object>
+    <object>objects\musoc</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\room3</room>
     <room>rooms\room1</room>
+    <room>rooms\ROOM_COMING_SOON</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
